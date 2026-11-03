@@ -124,6 +124,21 @@ This paper-focused index complements broader 3DGS resource collections:
 - [MrNeRF/awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 - [AIG3DX/Awesome-3DGS](https://github.com/AIG3DX/Awesome-3DGS)
 
+## Extended data snapshots
+
+The 47-paper list above remains the manually curated, review-ready layer. The following exports make the research workspace broader while keeping upstream discovery records visibly separate from reviewed selections.
+
+| File | Records | How to use it |
+| --- | ---: | --- |
+| [`catalog/upstream-paper-catalog.csv`](catalog/upstream-paper-catalog.csv) | 502 | Imported from the upstream structured catalog. Treat it as a discovery corpus; preserve each row's source and metadata status and verify the primary paper before citing. |
+| [`projects.csv`](projects.csv) | 42 | Curated project and implementation index with repository status and review-branch links. |
+| [`resources.csv`](resources.csv) | 109 | Broader resources extracted from the upstream Awesome README, including tutorials, viewers, tools, and implementations. Link-check status is retained per row. |
+| [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) | — | Source attribution and license note for the imported catalog. |
+
+The upstream catalog snapshot is dated **2026-11-03**. In the source sheet, 288 rows are explicitly marked for link verification before citation, 213 have no code link listed by the upstream source, and 1 title was restored from its arXiv record. These are not part of the curated 47-paper list by default.
+
+The resource crawl snapshot contains 109 rows. 25 destinations were captured from the source README but not individually opened; that status stays in the CSV so the list is useful for discovery without overstating verification.
+
 ## Link status
 
 The source research table marked paper links and listed official code repositories as checked on **2026-11-03**. Link availability and publication status can change; please report corrections.
